@@ -1,0 +1,304 @@
+body{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+.root{
+padding-bottom: 47px;
+}
+
+/* theme dark */
+.theme-dark {
+    position: relative;
+    background: #191d28;
+    min-height: 100vh;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+/* header */
+.header{
+    padding: 20px 30px 0px;
+}
+.fiat-logo{
+    width: 300px;
+    height: 70px;
+    padding: 10px;
+}
+.theme-dark .header-button {
+    background-color: #2e3241;
+    color: #fff;
+    border: 0;
+}
+.right-header {
+    text-align: right;
+}
+.progress-bar-wrapper {
+    height: 36px;
+    width: 36px;
+    margin: 10px;
+}
+.CircularProgressbar {
+    width: 100%;
+    vertical-align: middle;
+}
+.CircularProgressbar .CircularProgressbar-trail{
+    stroke: #d6d6d6;
+    stroke-linecap: round;
+}
+.CircularProgressbar .CircularProgressbar-path{
+    stroke: #3dc6c1 !important
+}
+.CircularProgressbar .CircularProgressbar-text{
+    fill: #3dc6c1 !important;
+    font-size: 44px !important;
+    font-weight: 500;
+    text-anchor: middle;
+}
+.color-white {
+    color: #fff;
+}
+.margin-10 {
+    margin: 10px;
+}
+.header-button {
+    margin: 10px;
+    padding: 6px 20px;
+    border-radius: 10px;
+}
+.header-telegram-button {
+    margin: 10px;
+    padding: 6px 20px;
+    border-radius: 10px;
+    background-color: #3dc6c1;
+    color: #fff!important;
+}
+.d-inline-block {
+    display: inline-block!important;
+}
+.telegram-logo {
+    height: 15px;
+    margin-right: 10px;
+}
+.text-nowrap {
+    white-space: nowrap!important;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin: 0;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: .4s;
+}
+.slider.round {
+    border-radius: 34px;
+}
+.theme-dark input:checked+.slider {
+    background-color: #2e3241;
+}
+.slider.round:before {
+    border-radius: 50%;
+}
+.theme-dark .slider:before {
+    background-color: #3dc6c1;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    transition: .4s;
+}
+
+/* mid portion */
+.padding-bottom-50 {
+    padding-bottom: 50px;
+}
+.banner{
+     padding: 0px 30px;
+}
+.average-header-maintext {
+    font-weight: 400;
+    font-size: 40px;
+}
+.color-green {
+    color: #5dc7c2;
+}
+.average-header-subHeading {
+    font-size: 20px;
+    opacity: .45;
+    font-weight: 300;
+    color: #fff;
+}
+.average-header-maintext {
+    font-weight: 400;
+    font-size: 40px;
+}
+.average-block {
+    padding-bottom: 30px;
+}
+.average-subText {
+    color: #fff;
+    opacity: .45;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: .75px;
+}
+.subText-heading {
+    font-size: 28px;
+}
+.average-heading {
+    font-weight: 400;
+    font-size: 80px;
+}
+/* table */
+
+.fiat-crypto-table{
+    margin:0px auto;
+    padding-left: 25px;
+    padding-right: 25px;   
+}
+.fiat-crypto-table table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    margin: 0;
+}
+.fiat-crypto-table th {
+    color: #fff;
+    padding: 0 12px;
+}
+.fiat-crypto-table th h4 {
+    font-size: 24px;
+    opacity: .45;
+    letter-spacing: 1px;
+    margin: 0 0 -5px;
+}
+.fiat-crypto-table td {
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.fiat-crypto-table tbody td:first-child {
+    border-radius: 10px 0 0 10px;
+}
+.table-text {
+    white-space: nowrap;
+    align-items: center;
+}
+.fiat-crypto-table td h4 {
+    font-family: Oswald;
+    font-size: 24px;
+    margin: 0;
+    opacity: 1;
+}
+.fiat-crypto-table td a {
+    color: #fff;
+}
+.exchange-name {
+    padding-left: 15px;
+}
+.fiat-crypto-table tbody tr {
+    background-color: #2e3241;
+}
+.exchange-logo {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.theme-dark .footer {
+    border-top: 2px solid #2e3241;
+}
+.footer {
+    margin-top: 10rem;
+    padding: 13px;
+    width: 100%;
+}
+.footer-text {
+    white-space: nowrap;
+    padding-right: 12px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.footer-text, .footer-text-link {
+    color: #888686;
+}
+.pointer {
+    margin-left: auto;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/* add button */
+.button{
+    border: solid 1px #191d28;
+    background-color: #191d28;
+    position: fixed;
+    left: 0;
+    align-items: center;
+    width: 100vw;
+    height: 47px;
+    bottom: 0;
+    z-index: 8;
+}
